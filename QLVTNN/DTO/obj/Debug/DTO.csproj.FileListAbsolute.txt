@@ -1,0 +1,275 @@
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\bin\Debug\DTO.dll
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\bin\Debug\DTO.pdb
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\obj\Debug\DTO.dll
+E:\Lap Trinh Quan Ly\QLVTNN\DTO\obj\Debug\DTO.pdb
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\Downloads\New folder\QLVTNN\DTO\obj\Debug\DTO.pdb
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.pdb
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.pdb
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csproj.CopyComplete
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.dll.config
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\EnvDTE.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\stdole.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.MSXML.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.dll.config
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\DTO.pdb
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\EnvDTE.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\stdole.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\Microsoft.MSXML.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.dll
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.pdb
+D:\Lap Trinh Quan Ly\DA(5-4)\QLVTNN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.dll.config
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.pdb
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\EnvDTE.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\stdole.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.MSXML.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.dll
+D:\Lap Trinh Quan Ly\QuanLyCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.pdb
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.dll.config
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\DTO.pdb
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\EnvDTE.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\stdole.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\Microsoft.MSXML.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.dll
+D:\ThietKePhanMem\PM\QLCuaHangVatLieuXayDung\QLVTNN\DTO\obj\Debug\DTO.pdb
