@@ -29,9 +29,7 @@ namespace QLVTNN
             {
                 MessageBox.Show("Không có Hàng Hóa hết số lượng", "Thông báo");
                 this.Close();
-            }
-            
-            
+            } 
         }
     }
 }

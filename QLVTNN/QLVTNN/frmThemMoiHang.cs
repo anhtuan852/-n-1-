@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace QLVTNN
 {
-    public partial class frmThemMoiHang : Form
+    public partial class frmAddMoi : Form
     {
-        public frmThemMoiHang()
+        public frmAddMoi()
         {
             InitializeComponent();
         }

@@ -20,9 +20,10 @@ namespace QLVTNN
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+
         }
         public string type; // khai báo để lấy loại tài khoản
-        private List<ThongTinHoaDon_DTO> lstHD = new List<ThongTinHoaDon_DTO>(); // 
+        private List<ThongTinHoaDon_DTO> lstHD = new List<ThongTinHoaDon_DTO>(); 
         private List<ThongTinHoaDon_TMP> lstHD_tmp = new List<ThongTinHoaDon_TMP>();
         int TongHD;
         public string user;
@@ -33,8 +34,11 @@ namespace QLVTNN
         public int tra;
         public int conlai;
 
+        private PrintDialog printDialog1 = new PrintDialog();
+
         private void LoadDataInCBB()
         {
+            // Load dữ liệu lên các ComboBox
             List<Loai_DTO> lstLoai = Loai_BUS.LayLoai();// Hien loai len combobox
             cbb_Loai.DataSource = lstLoai;
             cbb_Loai.DisplayMember = "tenloai";
@@ -199,7 +203,7 @@ namespace QLVTNN
 
         private void btn_Pay_Click(object sender, EventArgs e)
         {
-            if(cbb_ID_KH.SelectedIndex == -1)
+            if (cbb_ID_KH.SelectedIndex == -1)
             {
                 MessageBox.Show("Vui lòng chọn khách hàng thanh toán", "Thông báo");
             }
@@ -220,7 +224,7 @@ namespace QLVTNN
                         ftt.tongHD = TongHD;
                         ftt.makh = cbb_ID_KH.SelectedValue.ToString();
                         ftt.slsp = SLHang;
-                        if (ftt.ShowDialog() == DialogResult.OK) //neu lick thanh toan trong from thi thục thi bên duói
+                        if (ftt.ShowDialog() == DialogResult.OK) // neu lick thanh toan trong from thi thuc thi ben duoi
                         {
                             for (int i = 0; i < dgBanHang.Rows.Count; i++) // vong lap row trong datagridview
                             {
@@ -239,15 +243,21 @@ namespace QLVTNN
                             }
                             tra = ftt.tra;
                             conlai = ftt.conlai;
-                            //printPreviewDialog1.Document = printDocument1;
-                            //printPreviewDialog1.ShowDialog();// print man hinh
-                            printDocument1.Print();// xuát ra file pdf
+
+                            // Show PrintDialog
+                            printDialog1.Document = printDocument1;
+                            DialogResult result = printDialog1.ShowDialog();
+                            if (result == DialogResult.OK)
+                            {
+                                printDocument1.Print(); // In trực tiếp ra máy in
+                            }
+
                             lstHD.Clear(); // xoa list
-                            lstHD_tmp.Clear();// xoa list tạm
-                            dgBanHang.DataSource = null; // xóa datagridview
+                            lstHD_tmp.Clear(); // xoa list tam
+                            dgBanHang.DataSource = null; // xoa datagridview
 
                             lbTongHD.Text = "Tổng Hóa Đơn: 0 VNĐ";
-                            SLHang += 1; // cap nhat sl sp
+                            SLHang = 0; // cap nhat sl sp
                             lbSLHang.Text = "Tổng Số Hàng: 0";
                         }
                     }
@@ -269,11 +279,13 @@ namespace QLVTNN
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("Cửa Hàng Vật Liệu Xây Dựng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(170, 20));
-            e.Graphics.DrawString("Địa Chỉ: 07, Tổ 06, Ấp Phú Hạ, Xã Phú Xuân, Huyện Phú Tân, An Giang", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
-            e.Graphics.DrawString("Điện Thoại: 0338931582 - 0372712376", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
-            e.Graphics.DrawString("Email: kieukhang1805@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
-            e.Graphics.DrawString("Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
+
+
+            e.Graphics.DrawString("      Cửa Hàng Điện Nước", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
+            e.Graphics.DrawString("                         Địa Chỉ: Nhân Hòa, Mỹ Hào, Hưng Yên", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
+            e.Graphics.DrawString("Điện Thoại: 0963541319 - 0963541319", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
+            e.Graphics.DrawString("Email: anhtuanhym204@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
+            e.Graphics.DrawString("  Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(240, 150));
             e.Graphics.DrawString("Ngày: " + DateTime.Now.ToShortDateString()+ "   "+ DateTime.Now.ToLongTimeString(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(280, 190));
             e.Graphics.DrawString("Tên Khách Hàng: " + cbb_ID_KH.Text.Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 240));
             e.Graphics.DrawString("Số Điện Thoại: " + KhachHang_BUS.GetSDTbtIDKH(cbb_ID_KH.SelectedValue.ToString()).Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 270));
@@ -315,33 +327,15 @@ namespace QLVTNN
             frmSeenPrice fs = new frmSeenPrice();
             fs.ShowDialog();
         }
-
-        private void tsHangHet_Click(object sender, EventArgs e)
-        {
-            if (HangHoa_BUS.GetHangHoaHet() == null)
-            {
-                MessageBox.Show("Hiện tại không có hàng nào hết!", "Thông báo");
-            }
-            else
-            {
-                frmHangHet fh = new frmHangHet();
-                fh.ShowDialog();
-            }
-        }
         private void tsAddKh_Click(object sender, EventArgs e)
         {
-            frmThemKhachHang fa = new frmThemKhachHang();
+            frmAddKH fa = new frmAddKH();
             fa.ShowDialog();
         }
 
         private void xemGiáToolStripMenuItem_Click(object sender, EventArgs e)
         {
             tsSeenPrice_Click(this, new EventArgs());
-        }
-
-        private void xemHàngHếtToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsHangHet_Click(this, new EventArgs());
         }
 
         private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)

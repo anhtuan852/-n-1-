@@ -50,8 +50,6 @@ namespace QLVTNN
         }
         private void frmNhanVien_Load(object sender, EventArgs e)
         {
-            lbTime_Main.Text = DateTime.Now.ToLongTimeString();
-            timer1.Start();
             cbbChucVu.DataSource = lstChucVu;
             cbbChucVu.DisplayMember = "tencv";
             cbbChucVu.ValueMember = "macv";
@@ -263,10 +261,10 @@ namespace QLVTNN
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("Cửa Hàng Vật Liệu Xây Dựng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
-            e.Graphics.DrawString("Địa Chỉ: 18, Ung Văn Khiêm, P.Mỹ Xuyên, TP.Long Xuyên, An Giang", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
-            e.Graphics.DrawString("Điện Thoại: 0338931582 - 0372712376", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
-            e.Graphics.DrawString("Email: kieukhang1805@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
+            e.Graphics.DrawString("      Cửa Hàng Điện Nước", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
+            e.Graphics.DrawString("                         Địa Chỉ: Nhân Hòa, Mỹ Hào, Hưng Yên", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
+            e.Graphics.DrawString("Điện Thoại: 0963541319 - 0963541319", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
+            e.Graphics.DrawString("Email: anhtuanhym204@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
             e.Graphics.DrawString("Danh Sách Nhân Viên", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
             e.Graphics.DrawString("Ngày: " + DateTime.Now.ToShortDateString() + "   " + DateTime.Now.ToLongTimeString(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(280, 190));
             e.Graphics.DrawString("Nhân Viên: " + NhanVien_BUS.GetNamebyID(user).ToString().Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 240));
@@ -292,12 +290,6 @@ namespace QLVTNN
             e.Graphics.DrawString("------------------------------------------------------------------------------------------------------------------------------------------", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(0, location-10));
 
         }
-
-        private void tsExcel_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chức năng đang được cập nhật", "Thông báo");
-        }
-
         private void tsPrint_Click(object sender, EventArgs e)
         {
             //MessageBox.Show("Chức năng đang được cập nhật", "Thông báo");
@@ -305,41 +297,10 @@ namespace QLVTNN
             //printPreviewDialog1.ShowDialog();// print man hinh
             printDocument1.Print();// xuát ra file pdf
         }
-
-        private void tsSetting_Click(object sender, EventArgs e)
-        {
-            frmCaiDat fc = new frmCaiDat();
-            fc.type = type;
-            fc.user = user;
-            fc.ShowDialog();
-        }
-
-        private void tsHelp_Click(object sender, EventArgs e)
-        {
-            frmTroGiup ft = new frmTroGiup();
-            ft.ShowDialog();
-        }
-
-        private void xuấtExcelToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsExcel_Click(this, new EventArgs());
-        }
-
         private void inDanhSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             tsPrint_Click(this, new EventArgs());
         }
-
-        private void càiĐặtToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsSetting_Click(this, new EventArgs());
-        }
-
-        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsHelp_Click(this, new EventArgs());
-        }
-
         private void thêmToolStripMenuItem_Click(object sender, EventArgs e)
         {
             btnAdd_Click(this, new EventArgs());
@@ -426,10 +387,5 @@ namespace QLVTNN
             btnBack_Click(this, new EventArgs());
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lbTime_Main.Text = DateTime.Now.ToLongTimeString();
-            timer1.Start();
-        }
     }
 }

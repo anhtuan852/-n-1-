@@ -17,6 +17,7 @@ namespace QLVTNN
         public frmMain()
         {
             InitializeComponent();
+            IsMdiContainer = true;
         }
         public string typeuser = "XX";
         public string username;
@@ -263,28 +264,6 @@ namespace QLVTNN
             }
 
         }
-
-        frmTroGiup help = null;
-        private void tsbtnHelp_Click(object sender, EventArgs e)
-        {
-            if (help == null || help.IsDisposed)
-            {
-                help = new frmTroGiup();
-                IsMdiContainer = true;
-                help.MdiParent = this;
-                this.Show();
-            }
-            else
-            {
-                help.Activate();
-            }
-        }
-
-        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.tsbtnHelp_Click(this, new EventArgs());
-        }
-
         private void saoLưuToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             if(typeuser == "AD")
@@ -455,6 +434,84 @@ namespace QLVTNN
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.tsbtnLogout_Click(this, new EventArgs());
+        }
+        frmTroGiup help = null;
+        private void tsmHelp_Click(object sender, EventArgs e)
+        {
+            if (help == null || help.IsDisposed)
+            {
+                if (typeuser != "XX")
+                {
+                    help = new frmTroGiup();
+                    IsMdiContainer = true;
+                    help.MdiParent = this;
+                    help.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Bạn hãy ĐĂNG NHẬP trước khi thao tác!", "Thông báo");
+                }
+            }
+            else
+                help.Activate();
+        }
+
+        // Sửa tên nút và sự kiện Click cho nút Thống kê nhập
+        private void btnThongKeNhapHang_Click(object sender, EventArgs e)
+        {
+            if (typeuser != "XX")
+            {
+                frmThongkeNhapHang thongkeNhapHang = new frmThongkeNhapHang(); // Khởi tạo form thống kê nhập
+                thongkeNhapHang.MdiParent = this; // Đặt frmMain là form cha
+                thongkeNhapHang.Show(); // Hiển thị form thống kê nhập
+            }
+            else
+            {
+                MessageBox.Show("Bạn hãy ĐĂNG NHẬP trước khi thao tác!", "Thông báo");
+            }
+        }
+
+        // Sửa tên nút và sự kiện Click cho nút Thống kê bán
+        private void btnThongKeBanHang_Click(object sender, EventArgs e)
+        {
+            if (typeuser != "XX")
+            {
+                frmThongkebanhang thongkeBanHang = new frmThongkebanhang(); // Khởi tạo form thống kê bán
+                thongkeBanHang.MdiParent = this; // Đặt frmMain là form cha
+                thongkeBanHang.Show(); // Hiển thị form thống kê bán
+            }
+            else
+            {
+                MessageBox.Show("Bạn hãy ĐĂNG NHẬP trước khi thao tác!", "Thông báo");
+            }
+        }
+
+        private void thongkeban_Click(object sender, EventArgs e)
+        {
+            if (typeuser != "XX")
+            {
+                frmThongkebanhang thongkeBanHang = new frmThongkebanhang(); // Khởi tạo form thống kê bán
+                thongkeBanHang.MdiParent = this; // Đặt frmMain là form cha
+                thongkeBanHang.Show(); // Hiển thị form thống kê bán
+            }
+            else
+            {
+                MessageBox.Show("Bạn hãy ĐĂNG NHẬP trước khi thao tác!", "Thông báo");
+            }
+        }
+
+        private void btnthongkenhaphang_Click_1(object sender, EventArgs e)
+        {
+            if (typeuser != "XX")
+            {
+                frmThongkeNhapHang thongkeNhapHang = new frmThongkeNhapHang(); // Khởi tạo form thống kê nhập
+                thongkeNhapHang.MdiParent = this; // Đặt frmMain là form cha
+                thongkeNhapHang.Show(); // Hiển thị form thống kê nhập
+            }
+            else
+            {
+                MessageBox.Show("Bạn hãy ĐĂNG NHẬP trước khi thao tác!", "Thông báo");
+            }
         }
     }
 }

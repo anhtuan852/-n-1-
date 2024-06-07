@@ -173,11 +173,11 @@ namespace QLVTNN
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("Cửa Hàng Vật Liệu Xây Dựng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
-            e.Graphics.DrawString("Địa Chỉ: 18, Ung Văn Khiêm, P.Mỹ Xuyên, TP.Long Xuyên, An Giang", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
-            e.Graphics.DrawString("Điện Thoại: 0338931582 - 0372712376", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
-            e.Graphics.DrawString("Email: kieukhang1805@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
-            e.Graphics.DrawString("Danh Sách Nhân Viên", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
+            e.Graphics.DrawString("      Cửa Hàng Điện Nước", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
+            e.Graphics.DrawString("                         Địa Chỉ: Nhân Hòa, Mỹ Hào, Hưng Yên", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
+            e.Graphics.DrawString("Điện Thoại: 0963541319 - 0963541319", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
+            e.Graphics.DrawString("Email: anhtuanhym204@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
+            e.Graphics.DrawString("Danh Sách Khách Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
             e.Graphics.DrawString("Ngày: " + DateTime.Now.ToShortDateString() + "   " + DateTime.Now.ToLongTimeString(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(280, 190));
             e.Graphics.DrawString("Nhân Viên: " + NhanVien_BUS.GetNamebyID(user).ToString().Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 240));
             e.Graphics.DrawString("------------------------------------------------------------------------------------------------------------------------------------------", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(0, 260));
@@ -200,15 +200,8 @@ namespace QLVTNN
             e.Graphics.DrawString("------------------------------------------------------------------------------------------------------------------------------------------", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(0, location - 10));
 
         }
-
-        private void tsPrintExcel_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chức năng đang được cập nhật!", "Thông báo!");
-        }
-
         private void tsPrint_Click(object sender, EventArgs e)
         {
-            LichSu_BUS.Add(user, DateTime.Now, "In danh sách khách hàng ");
             //MessageBox.Show("Chức năng đang được cập nhật!", "Thông báo!");
             //printPreviewDialog1.Document = printDocument1;
             //printPreviewDialog1.ShowDialog();// print man hinh
@@ -219,11 +212,6 @@ namespace QLVTNN
         {
             frmXuLyNo fx = new frmXuLyNo();
             fx.ShowDialog();
-        }
-
-        private void xuấtExcelToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsPrintExcel_Click(this, new EventArgs());
         }
 
         private void inDanhSáchToolStripMenuItem_Click(object sender, EventArgs e)

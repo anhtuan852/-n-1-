@@ -38,9 +38,9 @@ namespace QLVTNN
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.dgDS_HangHet);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
             this.groupBox1.Location = new System.Drawing.Point(15, 15);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(622, 222);
@@ -54,13 +54,14 @@ namespace QLVTNN
             this.dgDS_HangHet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDS_HangHet.Location = new System.Drawing.Point(8, 23);
             this.dgDS_HangHet.Name = "dgDS_HangHet";
+            this.dgDS_HangHet.RowHeadersWidth = 51;
             this.dgDS_HangHet.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgDS_HangHet.Size = new System.Drawing.Size(608, 193);
             this.dgDS_HangHet.TabIndex = 0;
             // 
             // frmHangHet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 250);
             this.Controls.Add(this.groupBox1);

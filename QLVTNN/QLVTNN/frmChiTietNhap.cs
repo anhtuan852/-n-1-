@@ -26,9 +26,9 @@ namespace QLVTNN
         private void frmChiTietNhap_Load(object sender, EventArgs e)
         {
             if (type == "AD")
-                btnDelete.Enabled = true;
+                btnPrintDelete.Enabled = true;
             else
-                btnDelete.Enabled = false;
+                btnPrintDelete.Enabled = false;
             dgDSNhap.DataSource = lstNhapHang;
         }
 

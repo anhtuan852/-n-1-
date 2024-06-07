@@ -34,13 +34,12 @@ namespace QLVTNN
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBaoCaoBan));
-            this.USP_BaoCaoNgayBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.QLVLXDDataSet3 = new QLVTNN.QLVLXDDataSet3();
-            this.USP_HoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.QLVLXDDataSet = new QLVTNN.QLVLXDDataSet();
-            this.USP_HoaDonChiTietBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.QLVLXDDataSet1 = new QLVTNN.QLVLXDDataSet1();
-            this.USP_HoaDonTableAdapter = new QLVTNN.QLVLXDDataSetTableAdapters.USP_HoaDonTableAdapter();
+            this.uSPBaoCaoNgayBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLCHDNDataSet1 = new QLVTNN.QLCHDNDataSet1();
+            this.uSPHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLCHDNDataSet2 = new QLVTNN.QLCHDNDataSet2();
+            this.uSPHoaDonChiTietBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLCHDNDataSet3 = new QLVTNN.QLCHDNDataSet3();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.reportViewer3 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -60,15 +59,16 @@ namespace QLVTNN
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.USP_HoaDonChiTietTableAdapter = new QLVTNN.QLVLXDDataSet1TableAdapters.USP_HoaDonChiTietTableAdapter();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.USP_BaoCaoNgayTableAdapter = new QLVTNN.QLVLXDDataSet3TableAdapters.USP_BaoCaoNgayTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.USP_BaoCaoNgayBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.USP_HoaDonBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.USP_HoaDonChiTietBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet1)).BeginInit();
+            this.uSP_BaoCaoNgayTableAdapter = new QLVTNN.QLCHDNDataSet1TableAdapters.USP_BaoCaoNgayTableAdapter();
+            this.uSP_HoaDonTableAdapter = new QLVTNN.QLCHDNDataSet2TableAdapters.USP_HoaDonTableAdapter();
+            this.uSP_HoaDonChiTietTableAdapter = new QLVTNN.QLCHDNDataSet3TableAdapters.USP_HoaDonChiTietTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPBaoCaoNgayBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPHoaDonBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPHoaDonChiTietBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet3)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -77,39 +77,35 @@ namespace QLVTNN
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // USP_BaoCaoNgayBindingSource
+            // uSPBaoCaoNgayBindingSource
             // 
-            this.USP_BaoCaoNgayBindingSource.DataMember = "USP_BaoCaoNgay";
-            this.USP_BaoCaoNgayBindingSource.DataSource = this.QLVLXDDataSet3;
+            this.uSPBaoCaoNgayBindingSource.DataMember = "USP_BaoCaoNgay";
+            this.uSPBaoCaoNgayBindingSource.DataSource = this.qLCHDNDataSet1;
             // 
-            // QLVLXDDataSet3
+            // qLCHDNDataSet1
             // 
-            this.QLVLXDDataSet3.DataSetName = "QLVLXDDataSet3";
-            this.QLVLXDDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.qLCHDNDataSet1.DataSetName = "QLCHDNDataSet1";
+            this.qLCHDNDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // USP_HoaDonBindingSource
+            // uSPHoaDonBindingSource
             // 
-            this.USP_HoaDonBindingSource.DataMember = "USP_HoaDon";
-            this.USP_HoaDonBindingSource.DataSource = this.QLVLXDDataSet;
+            this.uSPHoaDonBindingSource.DataMember = "USP_HoaDon";
+            this.uSPHoaDonBindingSource.DataSource = this.qLCHDNDataSet2;
             // 
-            // QLVLXDDataSet
+            // qLCHDNDataSet2
             // 
-            this.QLVLXDDataSet.DataSetName = "QLVLXDDataSet";
-            this.QLVLXDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.qLCHDNDataSet2.DataSetName = "QLCHDNDataSet2";
+            this.qLCHDNDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // USP_HoaDonChiTietBindingSource
+            // uSPHoaDonChiTietBindingSource
             // 
-            this.USP_HoaDonChiTietBindingSource.DataMember = "USP_HoaDonChiTiet";
-            this.USP_HoaDonChiTietBindingSource.DataSource = this.QLVLXDDataSet1;
+            this.uSPHoaDonChiTietBindingSource.DataMember = "USP_HoaDonChiTiet";
+            this.uSPHoaDonChiTietBindingSource.DataSource = this.qLCHDNDataSet3;
             // 
-            // QLVLXDDataSet1
+            // qLCHDNDataSet3
             // 
-            this.QLVLXDDataSet1.DataSetName = "QLVLXDDataSet1";
-            this.QLVLXDDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // USP_HoaDonTableAdapter
-            // 
-            this.USP_HoaDonTableAdapter.ClearBeforeFill = true;
+            this.qLCHDNDataSet3.DataSetName = "QLCHDNDataSet3";
+            this.qLCHDNDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabControl1
             // 
@@ -119,47 +115,49 @@ namespace QLVTNN
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
+            this.tabControl1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.tabControl1.Location = new System.Drawing.Point(17, 16);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(714, 468);
+            this.tabControl1.Size = new System.Drawing.Size(952, 576);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.reportViewer3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Location = new System.Drawing.Point(4, 28);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(706, 440);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Size = new System.Drawing.Size(944, 544);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Báo Cáo Ngày";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // reportViewer3
             // 
-            this.reportViewer3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.reportViewer3.Dock = System.Windows.Forms.DockStyle.Fill;
             reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.USP_BaoCaoNgayBindingSource;
+            reportDataSource1.Value = this.uSPBaoCaoNgayBindingSource;
             this.reportViewer3.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer3.LocalReport.ReportEmbeddedResource = "QLVTNN.Report3.rdlc";
-            this.reportViewer3.Location = new System.Drawing.Point(6, 6);
+            this.reportViewer3.Location = new System.Drawing.Point(4, 4);
+            this.reportViewer3.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer3.Name = "reportViewer3";
             this.reportViewer3.ServerReport.BearerToken = null;
-            this.reportViewer3.Size = new System.Drawing.Size(694, 428);
+            this.reportViewer3.Size = new System.Drawing.Size(936, 536);
             this.reportViewer3.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.reportViewer1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 28);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(706, 440);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(944, 544);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Báo Cáo Bán Hàng";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -168,36 +166,42 @@ namespace QLVTNN
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.dtEnd);
             this.groupBox1.Controls.Add(this.btnBaoCao);
             this.groupBox1.Controls.Add(this.dtStart);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(5, 6);
+            this.groupBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(7, 7);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(697, 68);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(929, 84);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn ngày báo cáo";
             // 
             // dtEnd
             // 
+            this.dtEnd.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtEnd.Location = new System.Drawing.Point(388, 28);
+            this.dtEnd.Location = new System.Drawing.Point(517, 34);
+            this.dtEnd.Margin = new System.Windows.Forms.Padding(4);
             this.dtEnd.Name = "dtEnd";
-            this.dtEnd.Size = new System.Drawing.Size(104, 25);
+            this.dtEnd.Size = new System.Drawing.Size(137, 26);
             this.dtEnd.TabIndex = 5;
             this.toolTip1.SetToolTip(this.dtEnd, "Ngày kết thúc");
             // 
             // btnBaoCao
             // 
-            this.btnBaoCao.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBaoCao.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBaoCao.Location = new System.Drawing.Point(498, 21);
+            this.btnBaoCao.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaoCao.Location = new System.Drawing.Point(664, 26);
+            this.btnBaoCao.Margin = new System.Windows.Forms.Padding(4);
             this.btnBaoCao.Name = "btnBaoCao";
-            this.btnBaoCao.Size = new System.Drawing.Size(75, 37);
+            this.btnBaoCao.Size = new System.Drawing.Size(100, 46);
             this.btnBaoCao.TabIndex = 4;
             this.btnBaoCao.Text = "Báo Cáo";
             this.toolTip1.SetToolTip(this.btnBaoCao, "Xem báo cáo ");
@@ -206,55 +210,60 @@ namespace QLVTNN
             // 
             // dtStart
             // 
+            this.dtStart.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtStart.Location = new System.Drawing.Point(204, 28);
+            this.dtStart.Location = new System.Drawing.Point(272, 34);
+            this.dtStart.Margin = new System.Windows.Forms.Padding(4);
             this.dtStart.Name = "dtStart";
-            this.dtStart.Size = new System.Drawing.Size(104, 25);
+            this.dtStart.Size = new System.Drawing.Size(137, 26);
             this.dtStart.TabIndex = 2;
             this.toolTip1.SetToolTip(this.dtStart, "Ngày bắt đầu");
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(314, 31);
+            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(419, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.Size = new System.Drawing.Size(86, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Đến ngày:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(138, 31);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(184, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 17);
+            this.label1.Size = new System.Drawing.Size(76, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ ngày:";
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.reportViewer1.BackColor = System.Drawing.SystemColors.Control;
             reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.USP_HoaDonBindingSource;
+            reportDataSource2.Value = this.uSPHoaDonBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "QLVTNN.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(4, 80);
+            this.reportViewer1.Location = new System.Drawing.Point(5, 99);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(698, 356);
+            this.reportViewer1.Size = new System.Drawing.Size(930, 441);
             this.reportViewer1.TabIndex = 2;
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Controls.Add(this.reportViewer2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 28);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(706, 440);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(944, 544);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Báo Cáo Chi Tiết Bán Hàng";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -263,16 +272,18 @@ namespace QLVTNN
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.dtEndtt);
             this.groupBox2.Controls.Add(this.btnBaoCaoTT);
             this.groupBox2.Controls.Add(this.dtStarttt);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(5, 6);
+            this.groupBox2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(7, 7);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(697, 68);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(929, 84);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn ngày báo cáo chi tiết";
@@ -280,19 +291,21 @@ namespace QLVTNN
             // dtEndtt
             // 
             this.dtEndtt.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtEndtt.Location = new System.Drawing.Point(388, 28);
+            this.dtEndtt.Location = new System.Drawing.Point(517, 34);
+            this.dtEndtt.Margin = new System.Windows.Forms.Padding(4);
             this.dtEndtt.Name = "dtEndtt";
-            this.dtEndtt.Size = new System.Drawing.Size(104, 25);
+            this.dtEndtt.Size = new System.Drawing.Size(137, 26);
             this.dtEndtt.TabIndex = 5;
             this.toolTip1.SetToolTip(this.dtEndtt, "Ngày kết thúc");
             // 
             // btnBaoCaoTT
             // 
-            this.btnBaoCaoTT.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBaoCaoTT.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnBaoCaoTT.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBaoCaoTT.Location = new System.Drawing.Point(498, 21);
+            this.btnBaoCaoTT.Location = new System.Drawing.Point(664, 26);
+            this.btnBaoCaoTT.Margin = new System.Windows.Forms.Padding(4);
             this.btnBaoCaoTT.Name = "btnBaoCaoTT";
-            this.btnBaoCaoTT.Size = new System.Drawing.Size(75, 37);
+            this.btnBaoCaoTT.Size = new System.Drawing.Size(100, 46);
             this.btnBaoCaoTT.TabIndex = 4;
             this.btnBaoCaoTT.Text = "Báo Cáo";
             this.toolTip1.SetToolTip(this.btnBaoCaoTT, "Xem báo cáo");
@@ -302,71 +315,77 @@ namespace QLVTNN
             // dtStarttt
             // 
             this.dtStarttt.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtStarttt.Location = new System.Drawing.Point(204, 28);
+            this.dtStarttt.Location = new System.Drawing.Point(272, 34);
+            this.dtStarttt.Margin = new System.Windows.Forms.Padding(4);
             this.dtStarttt.Name = "dtStarttt";
-            this.dtStarttt.Size = new System.Drawing.Size(104, 25);
+            this.dtStarttt.Size = new System.Drawing.Size(137, 26);
             this.dtStarttt.TabIndex = 2;
             this.toolTip1.SetToolTip(this.dtStarttt, "Ngày bắt đầu");
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(314, 31);
+            this.label3.Location = new System.Drawing.Point(419, 38);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.Size = new System.Drawing.Size(86, 19);
             this.label3.TabIndex = 1;
             this.label3.Text = "Đến ngày:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(138, 31);
+            this.label4.Location = new System.Drawing.Point(184, 38);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 17);
+            this.label4.Size = new System.Drawing.Size(76, 19);
             this.label4.TabIndex = 0;
             this.label4.Text = "Từ ngày:";
             // 
             // reportViewer2
             // 
-            this.reportViewer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.reportViewer2.BackColor = System.Drawing.SystemColors.Control;
             reportDataSource3.Name = "DataSet1";
-            reportDataSource3.Value = this.USP_HoaDonChiTietBindingSource;
+            reportDataSource3.Value = this.uSPHoaDonChiTietBindingSource;
             this.reportViewer2.LocalReport.DataSources.Add(reportDataSource3);
             this.reportViewer2.LocalReport.ReportEmbeddedResource = "QLVTNN.Report2.rdlc";
-            this.reportViewer2.Location = new System.Drawing.Point(4, 80);
+            this.reportViewer2.Location = new System.Drawing.Point(5, 98);
+            this.reportViewer2.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer2.Name = "reportViewer2";
             this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.Size = new System.Drawing.Size(698, 356);
+            this.reportViewer2.Size = new System.Drawing.Size(930, 453);
             this.reportViewer2.TabIndex = 4;
             // 
-            // USP_HoaDonChiTietTableAdapter
+            // uSP_BaoCaoNgayTableAdapter
             // 
-            this.USP_HoaDonChiTietTableAdapter.ClearBeforeFill = true;
+            this.uSP_BaoCaoNgayTableAdapter.ClearBeforeFill = true;
             // 
-            // USP_BaoCaoNgayTableAdapter
+            // uSP_HoaDonTableAdapter
             // 
-            this.USP_BaoCaoNgayTableAdapter.ClearBeforeFill = true;
+            this.uSP_HoaDonTableAdapter.ClearBeforeFill = true;
+            // 
+            // uSP_HoaDonChiTietTableAdapter
+            // 
+            this.uSP_HoaDonChiTietTableAdapter.ClearBeforeFill = true;
             // 
             // frmBaoCaoBan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(739, 484);
+            this.ClientSize = new System.Drawing.Size(985, 596);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmBaoCaoBan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo Cáo Bán Hàng";
             this.Load += new System.EventHandler(this.frmBaoCao_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.USP_BaoCaoNgayBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.USP_HoaDonBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.USP_HoaDonChiTietBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QLVLXDDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPBaoCaoNgayBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPHoaDonBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPHoaDonChiTietBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLCHDNDataSet3)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -380,9 +399,6 @@ namespace QLVTNN
         }
 
         #endregion
-        private System.Windows.Forms.BindingSource USP_HoaDonBindingSource;
-        private QLVLXDDataSet QLVLXDDataSet;
-        private QLVLXDDataSetTableAdapters.USP_HoaDonTableAdapter USP_HoaDonTableAdapter;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -398,16 +414,19 @@ namespace QLVTNN
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer2;
-        private System.Windows.Forms.BindingSource USP_HoaDonChiTietBindingSource;
-        private QLVLXDDataSet1 QLVLXDDataSet1;
-        private QLVLXDDataSet1TableAdapters.USP_HoaDonChiTietTableAdapter USP_HoaDonChiTietTableAdapter;
         private System.Windows.Forms.DateTimePicker dtEnd;
         private System.Windows.Forms.DateTimePicker dtEndtt;
         private System.Windows.Forms.ToolTip toolTip1;
+        private QLCHDNDataSet1 qLCHDNDataSet1;
+        private System.Windows.Forms.BindingSource uSPBaoCaoNgayBindingSource;
+        private QLCHDNDataSet1TableAdapters.USP_BaoCaoNgayTableAdapter uSP_BaoCaoNgayTableAdapter;
+        private System.Windows.Forms.BindingSource uSPHoaDonBindingSource;
+        private QLCHDNDataSet2 qLCHDNDataSet2;
+        private QLCHDNDataSet2TableAdapters.USP_HoaDonTableAdapter uSP_HoaDonTableAdapter;
+        private System.Windows.Forms.BindingSource uSPHoaDonChiTietBindingSource;
+        private QLCHDNDataSet3 qLCHDNDataSet3;
+        private QLCHDNDataSet3TableAdapters.USP_HoaDonChiTietTableAdapter uSP_HoaDonChiTietTableAdapter;
         private System.Windows.Forms.TabPage tabPage3;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer3;
-        private System.Windows.Forms.BindingSource USP_BaoCaoNgayBindingSource;
-        private QLVLXDDataSet3 QLVLXDDataSet3;
-        private QLVLXDDataSet3TableAdapters.USP_BaoCaoNgayTableAdapter USP_BaoCaoNgayTableAdapter;
     }
 }

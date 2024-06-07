@@ -12,15 +12,14 @@ namespace DAO
     {
         public static SqlConnection MoKetNoi()
         {
-            //desktop-5ol6p9r\sqlexpress2019
-            //(local)\SQLEXPRESS
-            SqlConnection KetNoi = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=QLVLXD;Integrated Security=True");
+          
+            SqlConnection KetNoi = new SqlConnection(@"Data Source=DESKTOP-06DA0DB;Initial Catalog=QLCHDN;Integrated Security=True;Encrypt=False");
             KetNoi.Open();
             return KetNoi;
         }
         public static SqlConnection DongKetNoi()
         {
-            SqlConnection KetNoi = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=QLVLXD;Integrated Security=True");
+            SqlConnection KetNoi = new SqlConnection(@"Data Source=DESKTOP-06DA0DB;Initial Catalog=QLCHDN;Integrated Security=True;Encrypt=False");
             KetNoi.Close();
             return KetNoi;
         }

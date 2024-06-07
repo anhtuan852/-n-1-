@@ -38,19 +38,22 @@ namespace QLVTNN
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 38);
+            this.progressBar1.Location = new System.Drawing.Point(16, 47);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.MarqueeAnimationSpeed = 1000;
             this.progressBar1.Maximum = 300;
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(279, 23);
+            this.progressBar1.Size = new System.Drawing.Size(372, 28);
             this.progressBar1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 19);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.label1.Location = new System.Drawing.Point(17, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.Size = new System.Drawing.Size(216, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Đang kiểm tra đăng nhập....";
             // 
@@ -60,12 +63,13 @@ namespace QLVTNN
             // 
             // frmProressbar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 77);
+            this.ClientSize = new System.Drawing.Size(404, 95);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmProressbar";

@@ -170,7 +170,7 @@ namespace QLVTNN
 
         private void tsAddNew_Click(object sender, EventArgs e)
         {
-            frmThemMoiHang ft = new frmThemMoiHang();
+            frmAddMoi ft = new frmAddMoi();
             ft.ShowDialog();
         }
 
@@ -201,14 +201,6 @@ namespace QLVTNN
             ft.ShowDialog();
         }
 
-        private void tsSetting_Click(object sender, EventArgs e)
-        {
-            frmCaiDat fc = new frmCaiDat();
-            fc.type = type;
-            fc.user = user;
-            fc.ShowDialog();
-        }
-
         private void thêmHàngMớiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             tsAddNew_Click(this, new EventArgs());
@@ -227,22 +219,6 @@ namespace QLVTNN
         private void chiTiếtNhậpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             tsChiTietNhap_Click(this, new EventArgs());
-        }
-
-        private void càiĐặtToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsSetting_Click(this, new EventArgs());
-        }
-
-        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsHelp_Click(this, new EventArgs());
-        }
-
-        private void tsHelp_Click(object sender, EventArgs e)
-        {
-            frmTroGiup ft = new frmTroGiup();
-            ft.ShowDialog();
         }
 
         private void thêmToolStripMenuItem_Click(object sender, EventArgs e)

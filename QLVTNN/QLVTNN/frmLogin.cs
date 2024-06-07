@@ -21,18 +21,30 @@ namespace QLVTNN
 
         public string user;
         public string type = "XX";
+
+
+
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            txtDnhap.Text = Properties.Settings.Default.user;
+            txtpass.Text = Properties.Settings.Default.pass;
+        }
+
+        
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             frmProressbar fp = new frmProressbar();
             fp.ShowDialog();
             // lấy thông tin người dùng nhập
-            string username = txtUsername.Text;
-            string password = txtPassword.Text;
+            string username = txtDnhap.Text;
+            string password = txtpass.Text;
 
 
 
             // nếu == null có nghĩ không có username và password hoặc không đúng từ người dùng nhập
-            if(Account_BUS.LayAccount(username, password)== null)
+            if (Account_BUS.LayAccount(username, password) == null)
             {
                 // xuất câu thông báo
                 MessageBox.Show("Tài khoản, mật khẩu không chính xác hoặc đã bị tạm khóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -47,12 +59,12 @@ namespace QLVTNN
                 this.Close();// ẩn from hiện tại
                 // lấy thông tin loại tài khoản mà dùng nhập, là Admin hay Nhân Viên
                 type = Account_BUS.GetTypeAccont(username, password);
-                user = txtUsername.Text;
+                user = txtDnhap.Text;
                 LichSu_BUS.Add(user, DateTime.Now, "Đăng nhập");
-                if (checkBox1.Checked)
+                if (checkboxpass.Checked)
                 {
-                    Properties.Settings.Default.user = txtUsername.Text;
-                    Properties.Settings.Default.pass = txtPassword.Text;
+                    Properties.Settings.Default.user = txtDnhap.Text;
+                    Properties.Settings.Default.pass = txtpass.Text;
                     Properties.Settings.Default.Save();
                 }
                 else
@@ -67,15 +79,9 @@ namespace QLVTNN
             fp.Close();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
-            txtUsername.Text = Properties.Settings.Default.user;
-            txtPassword.Text = Properties.Settings.Default.pass;
         }
     }
 }

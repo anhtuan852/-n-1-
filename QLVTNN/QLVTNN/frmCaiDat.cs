@@ -18,8 +18,6 @@ namespace QLVTNN
         {
             InitializeComponent();
         }
-
-        
         public string type;
         public string user;
         List<Account_DTO_tmp> lst = Account_BUS.GetAccount();

@@ -66,5 +66,9 @@ namespace QLVTNN
             this.Close();
         }
 
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            //ChamCong_BUS.Edit();
+        }
     }
 }

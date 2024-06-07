@@ -58,7 +58,7 @@ namespace BUS
         {
             return HangHoa_DAO.SuaCoMa(ma, maedit, ten, sl, idloai, dvt, giamua, giaban, tt);
         }
-        public static bool SuaKhongCoMa(string ma, string ten, int sl, string idloai, string dvt, int giamua, int giaban, string tt)
+        public static bool Sua(string ma, string ten, int sl, string idloai, string dvt, int giamua, int giaban, string tt)
         {
             return HangHoa_DAO.SuaKhongCoMa(ma, ten, sl, idloai, dvt, giamua, giaban, tt);
         }

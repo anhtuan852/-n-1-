@@ -88,7 +88,6 @@ namespace QLVTNN
                 if (HoaDon_BUS.ThemHD(IDHD, user, makh, DateTime.Now, tongHD, tra, conlai, tthai) && KhachHang_BUS.UpdateNoTang(makh, conlai) && KhachHang_BUS.CapNhatTong(makh, tongHD))
                 {
                     MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    LichSu_BUS.Add(user, DateTime.Now, "Bán hàng, hóa đơn " + IDHD);
 
                 }
                 else

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QLVTNN
 {
@@ -15,6 +16,7 @@ namespace QLVTNN
     {
         public frmBaoCaoNhap()
         {
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             InitializeComponent();
         }
         public string user;
@@ -28,7 +30,7 @@ namespace QLVTNN
 
         private void btnBaoCao_Click(object sender, EventArgs e)
         {
-            this.USP_NhapHangTableAdapter.Fill(this.QLVLXDDataSet2.USP_NhapHang, Convert.ToDateTime(dtStart.Value.ToShortDateString()), Convert.ToDateTime(dtEnd.Value.ToShortDateString()));
+            this.uSP_NhapHangTableAdapter.Fill(this.qLCHDNDataSet.USP_NhapHang, Convert.ToDateTime(dtStart.Value.ToShortDateString()), Convert.ToDateTime(dtEnd.Value.ToShortDateString()));
 
             this.reportViewer1.RefreshReport();
             LichSu_BUS.Add(user, DateTime.Now, "Báo cáo nhập hàng");

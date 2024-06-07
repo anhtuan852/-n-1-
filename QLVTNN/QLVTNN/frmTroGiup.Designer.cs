@@ -52,8 +52,9 @@ namespace QLVTNN
             // 
             // treeView1
             // 
-            this.treeView1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeView1.Location = new System.Drawing.Point(13, 13);
+            this.treeView1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeView1.Location = new System.Drawing.Point(17, 16);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "nMain";
             treeNode1.Text = "Giao diện chính";
@@ -88,26 +89,28 @@ namespace QLVTNN
             treeNode8,
             treeNode9,
             treeNode12});
-            this.treeView1.Size = new System.Drawing.Size(214, 520);
+            this.treeView1.Size = new System.Drawing.Size(284, 639);
             this.treeView1.TabIndex = 0;
             this.treeView1.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView1_NodeMouseClick);
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(233, 13);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Location = new System.Drawing.Point(311, 16);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(27, 25);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(680, 520);
+            this.webBrowser1.Size = new System.Drawing.Size(907, 640);
             this.webBrowser1.TabIndex = 1;
             // 
             // frmTroGiup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(925, 545);
+            this.ClientSize = new System.Drawing.Size(1233, 671);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.treeView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTroGiup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTroGiup";

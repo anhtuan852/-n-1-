@@ -36,19 +36,19 @@ namespace QLVTNN
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.grNomal = new System.Windows.Forms.GroupBox();
+            this.grTTTK = new System.Windows.Forms.GroupBox();
             this.txtPassXacNhan = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbXacNhanMK = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbMK = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbTK = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dgAccount = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.grNomal.SuspendLayout();
+            this.grTTTK.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgAccount)).BeginInit();
             this.SuspendLayout();
@@ -56,48 +56,56 @@ namespace QLVTNN
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
+            this.tabControl1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.tabControl1.Location = new System.Drawing.Point(17, 16);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(512, 401);
+            this.tabControl1.Size = new System.Drawing.Size(683, 494);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox2);
-            this.tabPage1.Controls.Add(this.grNomal);
+            this.tabPage1.Controls.Add(this.grTTTK);
             this.tabPage1.Controls.Add(this.groupBox3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 28);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(504, 375);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(675, 462);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tài Khoản";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.btnEdit);
             this.groupBox2.Controls.Add(this.btnBack);
             this.groupBox2.Controls.Add(this.btnRefresh);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(6, 130);
+            this.groupBox2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.groupBox2.Location = new System.Drawing.Point(8, 160);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(493, 80);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(657, 98);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức năng";
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnEdit.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnEdit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdit.Image = global::QLVTNN.Properties.Resources.edit_button1;
-            this.btnEdit.Location = new System.Drawing.Point(6, 16);
+            this.btnEdit.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.btnEdit.Image = global::QLVTNN.Properties.Resources.edit_button;
+            this.btnEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnEdit.Location = new System.Drawing.Point(8, 20);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 58);
+            this.btnEdit.Size = new System.Drawing.Size(100, 71);
             this.btnEdit.TabIndex = 23;
             this.btnEdit.Text = "Đổi Pass";
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -107,13 +115,16 @@ namespace QLVTNN
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBack.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Image = global::QLVTNN.Properties.Resources.exit__1_;
-            this.btnBack.Location = new System.Drawing.Point(172, 16);
+            this.btnBack.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.btnBack.Image = global::QLVTNN.Properties.Resources.exit;
+            this.btnBack.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnBack.Location = new System.Drawing.Point(242, 20);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(75, 58);
+            this.btnBack.Size = new System.Drawing.Size(100, 71);
             this.btnBack.TabIndex = 22;
             this.btnBack.Text = "Đóng";
             this.btnBack.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -123,14 +134,16 @@ namespace QLVTNN
             // 
             // btnRefresh
             // 
-            this.btnRefresh.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnRefresh.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Image = global::QLVTNN.Properties.Resources.reload;
-            this.btnRefresh.Location = new System.Drawing.Point(86, 16);
+            this.btnRefresh.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.btnRefresh.Image = global::QLVTNN.Properties.Resources.refresh_page_option;
+            this.btnRefresh.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnRefresh.Location = new System.Drawing.Point(115, 20);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(80, 58);
+            this.btnRefresh.Size = new System.Drawing.Size(119, 71);
             this.btnRefresh.TabIndex = 19;
             this.btnRefresh.Text = "Refresh Pass";
             this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -138,81 +151,100 @@ namespace QLVTNN
             this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
-            // grNomal
+            // grTTTK
             // 
-            this.grNomal.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.grNomal.Controls.Add(this.txtPassXacNhan);
-            this.grNomal.Controls.Add(this.label4);
-            this.grNomal.Controls.Add(this.txtPass);
-            this.grNomal.Controls.Add(this.label5);
-            this.grNomal.Controls.Add(this.txtUser);
-            this.grNomal.Controls.Add(this.label1);
-            this.grNomal.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grNomal.Location = new System.Drawing.Point(6, 6);
-            this.grNomal.Name = "grNomal";
-            this.grNomal.Size = new System.Drawing.Size(493, 99);
-            this.grNomal.TabIndex = 3;
-            this.grNomal.TabStop = false;
-            this.grNomal.Text = "Thông tin Tài Khoản";
+            this.grTTTK.BackColor = System.Drawing.Color.White;
+            this.grTTTK.Controls.Add(this.txtPassXacNhan);
+            this.grTTTK.Controls.Add(this.lbXacNhanMK);
+            this.grTTTK.Controls.Add(this.txtPass);
+            this.grTTTK.Controls.Add(this.lbMK);
+            this.grTTTK.Controls.Add(this.txtUser);
+            this.grTTTK.Controls.Add(this.lbTK);
+            this.grTTTK.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.grTTTK.Location = new System.Drawing.Point(8, 7);
+            this.grTTTK.Margin = new System.Windows.Forms.Padding(4);
+            this.grTTTK.Name = "grTTTK";
+            this.grTTTK.Padding = new System.Windows.Forms.Padding(4);
+            this.grTTTK.Size = new System.Drawing.Size(657, 122);
+            this.grTTTK.TabIndex = 3;
+            this.grTTTK.TabStop = false;
+            this.grTTTK.Text = "Thông tin Tài Khoản";
             // 
             // txtPassXacNhan
             // 
-            this.txtPassXacNhan.Location = new System.Drawing.Point(335, 66);
+            this.txtPassXacNhan.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.txtPassXacNhan.Location = new System.Drawing.Point(447, 81);
+            this.txtPassXacNhan.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassXacNhan.Name = "txtPassXacNhan";
-            this.txtPassXacNhan.Size = new System.Drawing.Size(136, 22);
+            this.txtPassXacNhan.Size = new System.Drawing.Size(180, 26);
             this.txtPassXacNhan.TabIndex = 5;
             this.txtPassXacNhan.UseSystemPasswordChar = true;
             // 
-            // label4
+            // lbXacNhanMK
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(209, 69);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 15);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Xác Nhận Mật Khẩu:";
+            this.lbXacNhanMK.AutoSize = true;
+            this.lbXacNhanMK.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.lbXacNhanMK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbXacNhanMK.Location = new System.Drawing.Point(279, 85);
+            this.lbXacNhanMK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbXacNhanMK.Name = "lbXacNhanMK";
+            this.lbXacNhanMK.Size = new System.Drawing.Size(161, 19);
+            this.lbXacNhanMK.TabIndex = 4;
+            this.lbXacNhanMK.Text = "Xác Nhận Mật Khẩu:";
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(335, 29);
+            this.txtPass.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.txtPass.Location = new System.Drawing.Point(447, 36);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(136, 22);
+            this.txtPass.Size = new System.Drawing.Size(180, 26);
             this.txtPass.TabIndex = 3;
             this.txtPass.UseSystemPasswordChar = true;
             // 
-            // label5
+            // lbMK
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(209, 35);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 15);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Mật Khẩu:";
+            this.lbMK.AutoSize = true;
+            this.lbMK.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.lbMK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbMK.Location = new System.Drawing.Point(279, 43);
+            this.lbMK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbMK.Name = "lbMK";
+            this.lbMK.Size = new System.Drawing.Size(86, 19);
+            this.lbMK.TabIndex = 2;
+            this.lbMK.Text = "Mật Khẩu:";
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(87, 32);
+            this.txtUser.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.txtUser.Location = new System.Drawing.Point(116, 39);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(108, 22);
+            this.txtUser.Size = new System.Drawing.Size(143, 26);
             this.txtUser.TabIndex = 1;
             // 
-            // label1
+            // lbTK
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tài Khoản:";
+            this.lbTK.AutoSize = true;
+            this.lbTK.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.lbTK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbTK.Location = new System.Drawing.Point(24, 43);
+            this.lbTK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTK.Name = "lbTK";
+            this.lbTK.Size = new System.Drawing.Size(89, 19);
+            this.lbTK.TabIndex = 0;
+            this.lbTK.Text = "Tài Khoản:";
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox3.BackColor = System.Drawing.Color.White;
             this.groupBox3.Controls.Add(this.dgAccount);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(6, 216);
+            this.groupBox3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F);
+            this.groupBox3.Location = new System.Drawing.Point(8, 266);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(493, 142);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(657, 175);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tài Khoản";
@@ -221,20 +253,23 @@ namespace QLVTNN
             // 
             this.dgAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgAccount.Location = new System.Drawing.Point(8, 19);
+            this.dgAccount.Location = new System.Drawing.Point(11, 23);
+            this.dgAccount.Margin = new System.Windows.Forms.Padding(4);
             this.dgAccount.Name = "dgAccount";
+            this.dgAccount.RowHeadersWidth = 51;
             this.dgAccount.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgAccount.Size = new System.Drawing.Size(479, 117);
+            this.dgAccount.Size = new System.Drawing.Size(639, 144);
             this.dgAccount.TabIndex = 0;
             this.dgAccount.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgAccount_CellClick);
             // 
             // frmCaiDat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 417);
+            this.ClientSize = new System.Drawing.Size(715, 513);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCaiDat";
@@ -244,8 +279,8 @@ namespace QLVTNN
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
-            this.grNomal.ResumeLayout(false);
-            this.grNomal.PerformLayout();
+            this.grTTTK.ResumeLayout(false);
+            this.grTTTK.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgAccount)).EndInit();
             this.ResumeLayout(false);
@@ -259,15 +294,15 @@ namespace QLVTNN
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnRefresh;
-        private System.Windows.Forms.GroupBox grNomal;
+        private System.Windows.Forms.GroupBox grTTTK;
         private System.Windows.Forms.TextBox txtUser;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbTK;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dgAccount;
         private System.Windows.Forms.TextBox txtPassXacNhan;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbXacNhanMK;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbMK;
         private System.Windows.Forms.Button btnEdit;
     }
 }

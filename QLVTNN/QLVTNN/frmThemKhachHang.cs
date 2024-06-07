@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace QLVTNN
 {
-    public partial class frmThemKhachHang : Form
+    public partial class frmAddKH : Form
     {
-        public frmThemKhachHang()
+        public frmAddKH()
         {
             InitializeComponent();
         }

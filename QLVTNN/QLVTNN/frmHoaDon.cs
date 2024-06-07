@@ -27,11 +27,15 @@ namespace QLVTNN
         public string user;
         int tong, tra, conlai;
 
+        private PrintDialog printDialog1 = new PrintDialog();
+
         private void frmHoaDon_Load(object sender, EventArgs e)
         {
+            // Tải danh sách khách hàng vào ComboBox
             cbbKh.DataSource = lstKh;
             cbbKh.DisplayMember = "tenkh";
             cbbKh.ValueMember = "makh";
+            // Tải danh sách hóa đơn vào DataGridView
             dgDS_HD.DataSource = listHoaDon;
             if(listHoaDon != null)
             {
@@ -40,13 +44,13 @@ namespace QLVTNN
             }
             
         }
-
+        //Xem chi tiết hóa đơn
         private void btnChitiet_HD_Click(object sender, EventArgs e)
         {
             List<ThongTinHoaDon_DTO> listTTHoaDon = ThongTinHoaDon_BUS.GetThongTinHDByIDHD(Convert.ToInt32(dgDS_HD.SelectedRows[0].Cells[0].Value.ToString()));
             dgChitiet_HD.DataSource = listTTHoaDon;
         }
-
+        //Làm mới dữ liệu
         private void btn_Refesh_Click(object sender, EventArgs e)
         {
             listHoaDon = HoaDon_BUS.GetHoaDon();
@@ -61,7 +65,7 @@ namespace QLVTNN
         {
             this.Close();
         }
-
+        //Tìm kiếm hóa đơn theo ngày
         private void btn_Find_Click(object sender, EventArgs e)
         {
             if(HoaDon_BUS.XemTheoNgay(dtNgayStart.Value.ToShortDateString()+ " 00:00:00", dt_NgayEnd.Value.ToShortDateString() + " 23:59:59") == null)
@@ -74,20 +78,6 @@ namespace QLVTNN
                 dgDS_HD.DataSource = listHoaDon;
             }
         }
-
-        private void tsBaoCao_Click(object sender, EventArgs e)
-        {
-            frmBaoCaoBan fb = new frmBaoCaoBan();
-            fb.user = user;
-            fb.type = type;
-            fb.ShowDialog();
-        }
-
-        private void xuấtBáoCáoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            tsBaoCao_Click(this, new EventArgs());
-        }
-
         private void xemChiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             btnChitiet_HD_Click(this, new EventArgs());
@@ -107,7 +97,7 @@ namespace QLVTNN
         {
             btn_Find_Click(this, new EventArgs());
         }
-
+        // Hiển thị thông tin chi tiết khi chọn hóa đơn
         private void dgDS_HD_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             lsttt = ThongTinHoaDon_BUS.GetThongTinHDByIDHD(Convert.ToInt32(dgDS_HD.SelectedRows[0].Cells[0].Value));
@@ -125,12 +115,25 @@ namespace QLVTNN
 
         private void tsPint_Click(object sender, EventArgs e)
         {
-            //printPreviewDialog1.Document = printDocument1;
-            //printPreviewDialog1.ShowDialog();// print man hinh
-            printDocument1.Print();// xuát ra file pdf
-            LichSu_BUS.Add(user, DateTime.Now, "In lại hóa đơn" + dgDS_HD.SelectedRows[0].Cells[0].Value.ToString());
-        }
+            // Kiểm tra xem có hàng nào được chọn hay không
+            if (dgDS_HD.SelectedRows.Count > 0)
+            {
+                // Hiển thị cửa sổ in để người dùng chọn máy in và các tùy chọn in khác
+                if (printDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    // Gọi phương thức in của đối tượng PrintDocument
+                    printDocument1.Print();
 
+                    // Thêm vào lịch sử
+                    LichSu_BUS.Add(user, DateTime.Now, "In lại hóa đơn " + dgDS_HD.SelectedRows[0].Cells[0].Value.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một hóa đơn để in.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        //Tìm hóa đơn theo khách hàng
         private void btnSeenKH_Click(object sender, EventArgs e)
         {
             listHoaDon = HoaDon_BUS.GetHoaDonByIDKH(cbbKh.SelectedValue.ToString());
@@ -143,16 +146,15 @@ namespace QLVTNN
                 dgDS_HD.DataSource = null;
                 dgDS_HD.DataSource = listHoaDon;
             }    
-                
         }
 
         private void printDocument2_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("Cửa Hàng Vật Liệu Xây Dựng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(170, 20));
-            e.Graphics.DrawString("Địa Chỉ: 07, Tổ 06, Ấp Phú Hạ, Xã Phú Xuân, Huyện Phú Tân, An Giang", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
-            e.Graphics.DrawString("Điện Thoại: 0338931582 - 0372712376", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
-            e.Graphics.DrawString("Email: kieukhang1805@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
-            e.Graphics.DrawString("Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
+            e.Graphics.DrawString("      Cửa Hàng Điện Nước", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
+            e.Graphics.DrawString("                         Địa Chỉ: Nhân Hòa, Mỹ Hào, Hưng Yên", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
+            e.Graphics.DrawString("Điện Thoại: 0963541319 - 0963541319", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
+            e.Graphics.DrawString("Email: anhtuanhym204@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
+            e.Graphics.DrawString("  Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
             e.Graphics.DrawString("Ngày: " + DateTime.Now.ToShortDateString() + "   " + DateTime.Now.ToLongTimeString(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(280, 190));
             e.Graphics.DrawString("Tên Khách Hàng: " + KhachHang_BUS.GetName(dgDS_HD.SelectedRows[0].Cells[2].Value.ToString()).Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 240));
             e.Graphics.DrawString("Số Điện Thoại: " + KhachHang_BUS.GetSDTbtIDKH(dgDS_HD.SelectedRows[0].Cells[2].Value.ToString()).Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(430, 240));
@@ -187,7 +189,7 @@ namespace QLVTNN
         {
             btn_Back_Click(this, new EventArgs());
         }
-
+        //Cập nhật trạng thái hóa đơn và in hóa đơn
         private void btnTthai_Click(object sender, EventArgs e)
         {
             if(cbbTthai.SelectedIndex == 0)
@@ -213,11 +215,11 @@ namespace QLVTNN
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("Cửa Hàng Vật Liệu Xây Dựng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(170, 20));
-            e.Graphics.DrawString("Địa Chỉ: 07, Tổ 06, Ấp Phú Hạ, Xã Phú Xuân, Huyện Phú Tân, An Giang", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
-            e.Graphics.DrawString("Điện Thoại: 0338931582 - 0372712376", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
-            e.Graphics.DrawString("Email: kieukhang1805@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
-            e.Graphics.DrawString("Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
+            e.Graphics.DrawString("      Cửa Hàng Điện Nước", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(210, 20));
+            e.Graphics.DrawString("                         Địa Chỉ: Nhân Hòa, Mỹ Hào, Hưng Yên", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(105, 60));
+            e.Graphics.DrawString("Điện Thoại: 0963541319 - 0963541319", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(240, 85));
+            e.Graphics.DrawString("Email: anhtuanhym204@gmail.com", new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(260, 110));
+            e.Graphics.DrawString("  Hóa Đơn Bán Hàng", new Font("Arial", 22, FontStyle.Regular), Brushes.Black, new Point(270, 150));
             e.Graphics.DrawString("Ngày: " + DateTime.Now.ToShortDateString() + "   " + DateTime.Now.ToLongTimeString(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(280, 190));
             e.Graphics.DrawString("Tên Khách Hàng: " + KhachHang_BUS.GetName(dgDS_HD.SelectedRows[0].Cells[2].Value.ToString()).Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 240));
             e.Graphics.DrawString("Số Điện Thoại: " + KhachHang_BUS.GetSDTbtIDKH(dgDS_HD.SelectedRows[0].Cells[2].Value.ToString()).Trim(), new Font("Arial", 14, FontStyle.Regular), Brushes.Black, new Point(10, 270));

@@ -66,12 +66,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DuLieu_BUS.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Thongkebaocaoban_BLL.cs" />
+    <Compile Include="Thongkenhaphang_BUS.cs" />
     <Compile Include="ThongTinHoaDon_BUS.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAO\DAO.csproj">
+    <ProjectReference Include="..\DAO\DAL.csproj">
       <Project>{93557819-74fb-4b07-b4cb-ef087baa5307}</Project>
-      <Name>DAO</Name>
+      <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{707f57ea-194a-4650-bef1-e622ca53584f}</Project>
